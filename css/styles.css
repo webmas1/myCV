@@ -1,0 +1,53 @@
+body {
+    background-image: radial-gradient(circle, #ffffff, #ffffff, #c5dcec);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #444444;
+}
+
+#scroll-top {
+    display: none;
+    opacity: 0.5;
+    z-index: 9999;
+    bottom: 20px;
+    right: 30px;
+}
+
+#scroll-top:hover {
+    opacity: 1;
+}
+
+.container {
+    max-width: 800px;
+}
+
+section {
+    min-height: 950px;
+}
+
+.projects {
+    min-height: 1600px;
+}
+
+.projects .card-text {
+    height: 100px;
+}
+
+.progress {
+    height: 1.5rem;
+}
+
+
+
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    section {
+        min-height: 750px;
+    }
+
+    .projects {
+        min-height: 750px;
+    }
+}
